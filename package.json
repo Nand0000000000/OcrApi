@@ -1,0 +1,24 @@
+{
+  "name": "apiocr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/ai-form-recognizer": "^5.0.0",
+    "@azure/cognitiveservices-computervision": "^8.2.0",
+    "@azure/identity": "^4.4.0",
+    "@azure/ms-rest-js": "^2.7.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-lib": "^1.17.1",
+    "pdf-poppler": "^0.2.1"
+  }
+}
